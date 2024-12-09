@@ -1,0 +1,148 @@
+a {
+  text-decoration: none;
+}
+
+.info h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+@media screen and (max-width: 700px) {
+  .info h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .info h1 {
+    font-size: 17px;
+  }
+}
+.info p {
+  font-size: 20px;
+}
+@media screen and (max-width: 700px) {
+  .info p {
+    font-size: 15px;
+    width: 220px;
+  }
+}
+@media screen and (min-width: 710px) {
+  .info p {
+    width: 550px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .info p {
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .info p {
+    font-size: 14px;
+    width: 190px;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+body main {
+  margin-left: 230px;
+  padding: 0 25px;
+}
+@media screen and (max-width: 700px) {
+  body main {
+    margin-left: 150px;
+  }
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bloc-navigation {
+  background-color: rgba(0, 0, 255, 0.466);
+  width: 230px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+@media screen and (max-width: 700px) {
+  .bloc-navigation {
+    width: 160px;
+  }
+}
+.bloc-navigation .pdp {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bloc-navigation .pdp img {
+  width: 130px;
+  height: 130px;
+  border: 2px solid green;
+  border-radius: 50%;
+}
+@media screen and (max-width: 700px) {
+  .bloc-navigation .pdp img {
+    width: 120px;
+    height: 120px;
+  }
+}
+.bloc-navigation ul {
+  margin-top: 25px;
+}
+.bloc-navigation ul li {
+  height: 40px;
+}
+.bloc-navigation ul li:not(:first-child) {
+  margin-top: 25px;
+}
+.bloc-navigation ul li a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 700px) {
+  .bloc-navigation ul li a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .bloc-navigation ul li {
+    margin-left: -30px;
+  }
+}
+.bloc-navigation hr {
+  width: 130px;
+  height: 3px;
+  background-color: brown;
+}
+.bloc-navigation .fa-facebook {
+  color: #3B5998;
+  font-size: 30px;
+}
+.bloc-navigation .fa-linkedin {
+  color: #007bb5;
+  font-size: 30px;
+}
+.bloc-navigation .fa-twitter {
+  color: #55ACEE;
+  font-size: 30px;
+}
+.bloc-navigation .lienssocial {
+  margin-top: 1rem;
+  margin-left: 25%;
+}
+
+/*# sourceMappingURL=app.css.map */

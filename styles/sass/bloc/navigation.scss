@@ -1,0 +1,75 @@
+.bloc-navigation {
+    background-color: $primary-color;
+    width: 230px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    @include responsive(700px){
+        width: 160px;
+    }
+    .pdp {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 130px;
+            height: 130px;
+            border: 2px solid green;
+            border-radius: 50%;
+            @include responsive(700px){
+                width: 120px;
+                height: 120px;
+            }
+        }
+    }
+    ul {
+        margin-top: 25px;
+        li {
+            height: 40px;
+            &:not(:first-child) {
+                margin-top: 25px;
+            }
+            a {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                @include fontStyle(18px, 18px, 700, white, true);
+                @include responsive(700px){
+                    font-size: 12px;
+                }
+            }
+            @include responsive(700px){
+                margin-left: -30px;
+            }
+        }
+    }
+    hr{
+        width: 130px;
+        height: 3px;
+        background-color: brown;
+    }
+    .fa-facebook {
+        color: $fb_color;
+        font-size: 30px;
+    }
+    
+    .fa-linkedin {
+        color: $linkedin_color;
+        font-size: 30px;
+    }
+    
+    .fa-twitter {
+        color: $twitter_color;
+        font-size: 30px;
+    }
+    
+    .lienssocial{
+        margin-top: 1rem;
+        margin-left: 25%;
+    }
+}

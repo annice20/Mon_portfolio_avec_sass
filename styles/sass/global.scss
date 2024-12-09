@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    main {
+        margin-left: 230px;
+        padding: 0 25px;
+        @include responsive(700px){
+            margin-left: 150px;
+        }
+    }
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
