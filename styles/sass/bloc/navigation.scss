@@ -17,7 +17,6 @@
         img {
             width: 130px;
             height: 130px;
-            border: 2px solid green;
             border-radius: 50%;
             @include responsive(700px){
                 width: 120px;
@@ -51,7 +50,7 @@
     hr{
         width: 130px;
         height: 3px;
-        background-color: brown;
+        background-color: $hr_color;
     }
     .fa-facebook {
         color: $fb_color;
