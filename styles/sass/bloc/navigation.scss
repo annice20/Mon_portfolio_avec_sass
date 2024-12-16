@@ -58,13 +58,13 @@
     }
     
     .fa-linkedin {
+        @extend .fa-facebook;
         color: $linkedin_color;
-        font-size: 30px;
     }
     
     .fa-twitter {
+        @extend .fa-facebook;
         color: $twitter_color;
-        font-size: 30px;
     }
     
     .lienssocial{

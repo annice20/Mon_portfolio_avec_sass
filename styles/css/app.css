@@ -64,6 +64,22 @@ ul {
   padding: 0;
 }
 
+.envoyer {
+  background-color: black;
+  width: 40%;
+  height: 60px;
+  text-align: center;
+  border-radius: 20px;
+}
+.envoyer a {
+  color: white;
+  text-decoration: none;
+  line-height: 60px;
+}
+.envoyer:hover {
+  background-color: brown;
+}
+
 .bloc-navigation {
   background-color: rgba(0, 0, 255, 0.466);
   width: 230px;
@@ -131,21 +147,40 @@ ul {
   height: 3px;
   background-color: brown;
 }
-.bloc-navigation .fa-facebook {
+.bloc-navigation .fa-facebook, .bloc-navigation .fa-twitter, .bloc-navigation .fa-linkedin {
   color: #3B5998;
   font-size: 30px;
 }
 .bloc-navigation .fa-linkedin {
   color: #007bb5;
-  font-size: 30px;
 }
 .bloc-navigation .fa-twitter {
   color: #55ACEE;
-  font-size: 30px;
 }
 .bloc-navigation .lienssocial {
   margin-top: 1rem;
   margin-left: 25%;
+}
+
+.form input[type=text] {
+  width: 90%;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.59);
+}
+.form textarea {
+  width: 90%;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.59);
+}
+.form div {
+  margin-top: 1rem;
+}
+
+.contactbody {
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=app.css.map */

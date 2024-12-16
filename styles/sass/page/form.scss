@@ -1,0 +1,22 @@
+.form{
+    input[type=text]{
+        width: 90%;
+        height:50px;
+        border-radius: 5px;
+        margin-top: 1rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.59);
+    }
+    textarea{
+        width: 90%;
+        height: 200px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.59);
+    }
+    div{
+        margin-top: 1rem;
+    }
+}
+
+.contactbody{
+    margin-bottom: 20px;
+}
