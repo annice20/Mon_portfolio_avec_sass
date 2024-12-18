@@ -2,6 +2,9 @@ a {
   text-decoration: none;
 }
 
+.info:nth-of-type(1) {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
 .info h1 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -17,10 +20,6 @@ a {
     font-size: 17px;
   }
 }
-.info:nth-of-type(1) {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
 .info p {
   font-size: 20px;
 }
